@@ -1,5 +1,6 @@
 
 public class NewJFrame extends javax.swing.JFrame {
+// piskvorkysumojzivotnystyl
 // ahoj svet
 
     public NewJFrame() {

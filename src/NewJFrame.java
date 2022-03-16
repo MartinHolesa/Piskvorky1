@@ -1,6 +1,6 @@
 
 public class NewJFrame extends javax.swing.JFrame {
-
+// ahoj svet
 
     public NewJFrame() {
         initComponents();

@@ -95,16 +95,16 @@
                       <Component id="tic1" max="32767" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                      <Component id="tic8" alignment="0" pref="190" max="32767" attributes="0"/>
-                      <Component id="tic5" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="tic5" pref="202" max="32767" attributes="0"/>
+                      <Component id="tic8" alignment="0" max="32767" attributes="0"/>
                       <Component id="tic2" alignment="0" max="32767" attributes="0"/>
                   </Group>
-                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="tic9" alignment="0" pref="203" max="32767" attributes="0"/>
-                      <Component id="tic6" max="32767" attributes="0"/>
+                      <Component id="tic9" alignment="0" pref="197" max="32767" attributes="0"/>
                       <Component id="tic3" alignment="1" max="32767" attributes="0"/>
+                      <Component id="tic6" alignment="1" max="32767" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
@@ -113,25 +113,25 @@
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" attributes="0">
-                  <EmptySpace max="-2" attributes="0"/>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
                       <Component id="tic3" pref="179" max="32767" attributes="0"/>
                       <Component id="tic2" max="32767" attributes="0"/>
                       <Component id="tic1" max="32767" attributes="0"/>
                   </Group>
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
                       <Component id="tic4" pref="170" max="32767" attributes="0"/>
                       <Component id="tic5" max="32767" attributes="0"/>
                       <Component id="tic6" max="32767" attributes="0"/>
                   </Group>
-                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="1" max="-2" attributes="0">
                       <Component id="tic8" alignment="0" pref="182" max="32767" attributes="0"/>
                       <Component id="tic9" alignment="0" max="32767" attributes="0"/>
                       <Component id="tic7" max="32767" attributes="0"/>
                   </Group>
-                  <EmptySpace max="32767" attributes="0"/>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -163,6 +163,9 @@
               <Font name="Tahoma" size="96" style="1"/>
             </Property>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tic4ActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="tic5">
           <Properties>
@@ -170,6 +173,9 @@
               <Font name="Tahoma" size="96" style="0"/>
             </Property>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tic5ActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="tic6">
           <Properties>
@@ -177,6 +183,9 @@
               <Font name="Tahoma" size="96" style="1"/>
             </Property>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tic6ActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="tic7">
           <Properties>
@@ -184,6 +193,9 @@
               <Font name="Tahoma" size="96" style="1"/>
             </Property>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tic7ActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="tic8">
           <Properties>
@@ -191,6 +203,9 @@
               <Font name="Tahoma" size="96" style="1"/>
             </Property>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tic8ActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="tic9">
           <Properties>
@@ -198,6 +213,9 @@
               <Font name="Tahoma" size="96" style="1"/>
             </Property>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tic9ActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="tic2">
           <Properties>

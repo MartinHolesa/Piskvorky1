@@ -32,6 +32,173 @@ public class NewJFrame extends javax.swing.JFrame {
             startHry = "X";
        }
     }
+     
+     private void VyhranaHra()
+     {
+         String b1 = tic1.getText();
+         String b2 = tic2.getText();
+         String b3 = tic3.getText();
+         String b4 = tic4.getText();
+         String b5 = tic5.getText();
+         String b6 = tic6.getText();
+         String b7 = tic7.getText();
+         String b8 = tic8.getText();
+         String b9 = tic9.getText();
+         
+         if(b1 == ("X") && b2 == ("X") && b3 == ("X"))
+         {
+             JOptionPane.showMessageDialog(this, "Hrac X vyhral hru", "Piskvorky", JOptionPane.INFORMATION_MESSAGE);
+              tic1.setBackground(Color.ORANGE);
+              tic2.setBackground(Color.ORANGE);
+              tic3.setBackground(Color.ORANGE);
+              PocetX++;
+              SkoreHry();
+         }
+         
+          if(b4 == ("X") && b5 == ("X") && b6 == ("X"))
+         {
+             JOptionPane.showMessageDialog(this, "Hrac X vyhral hru", "Piskvorky", JOptionPane.INFORMATION_MESSAGE);
+              tic4.setBackground(Color.ORANGE);
+              tic5.setBackground(Color.ORANGE);
+              tic6.setBackground(Color.ORANGE);
+              PocetX++;
+              SkoreHry();
+         }
+          
+           if(b7 == ("X") && b8 == ("X") && b9 == ("X"))
+         {
+             JOptionPane.showMessageDialog(this, "Hrac X vyhral hru", "Piskvorky", JOptionPane.INFORMATION_MESSAGE);
+              tic7.setBackground(Color.ORANGE);
+              tic8.setBackground(Color.ORANGE);
+              tic9.setBackground(Color.ORANGE);
+              PocetX++;
+              SkoreHry();
+         }
+           if(b1 == ("X") && b4 == ("X") && b7 == ("X"))
+         {
+             JOptionPane.showMessageDialog(this, "Hrac X vyhral hru", "Piskvorky", JOptionPane.INFORMATION_MESSAGE);
+              tic1.setBackground(Color.ORANGE);
+              tic4.setBackground(Color.ORANGE);
+              tic7.setBackground(Color.ORANGE);
+              PocetX++;
+              SkoreHry();
+         }
+          if(b2 == ("X") && b5 == ("X") && b8 == ("X"))
+         {
+             JOptionPane.showMessageDialog(this, "Hrac X vyhral hru", "Piskvorky", JOptionPane.INFORMATION_MESSAGE);
+              tic2.setBackground(Color.ORANGE);
+              tic5.setBackground(Color.ORANGE);
+              tic8.setBackground(Color.ORANGE);
+              PocetX++;
+              SkoreHry();
+         }
+          
+           if(b3 == ("X") && b6 == ("X") && b9 == ("X"))
+         {
+             JOptionPane.showMessageDialog(this, "Hrac X vyhral hru", "Piskvorky", JOptionPane.INFORMATION_MESSAGE);
+              tic3.setBackground(Color.ORANGE);
+              tic6.setBackground(Color.ORANGE);
+              tic9.setBackground(Color.ORANGE);
+              PocetX++;
+              SkoreHry();
+         }
+            if(b1 == ("X") && b5 == ("X") && b9 == ("X"))
+         {
+             JOptionPane.showMessageDialog(this, "Hrac X vyhral hru", "Piskvorky", JOptionPane.INFORMATION_MESSAGE);
+              tic1.setBackground(Color.ORANGE);
+              tic5.setBackground(Color.ORANGE);
+              tic9.setBackground(Color.ORANGE);
+              PocetX++;
+              SkoreHry();
+         }
+          
+           if(b3 == ("X") && b5 == ("X") && b7 == ("X"))
+         {
+             JOptionPane.showMessageDialog(this, "Hrac X vyhral hru", "Piskvorky", JOptionPane.INFORMATION_MESSAGE);
+              tic3.setBackground(Color.ORANGE);
+              tic5.setBackground(Color.ORANGE);
+              tic7.setBackground(Color.ORANGE);
+              PocetX++;
+              SkoreHry();
+         }
+           
+            if(b1 == ("O") && b2 == ("O") && b3 == ("O"))
+         {
+             JOptionPane.showMessageDialog(this, "Hrac O vyhral hru", "Piskvorky", JOptionPane.INFORMATION_MESSAGE);
+              tic1.setBackground(Color.ORANGE);
+              tic2.setBackground(Color.ORANGE);
+              tic3.setBackground(Color.ORANGE);
+              PocetO++;
+              SkoreHry();
+         }
+          if(b4 == ("O") && b5 == ("O") && b6 == ("O"))
+         {
+             JOptionPane.showMessageDialog(this, "Hrac O vyhral hru", "Piskvorky", JOptionPane.INFORMATION_MESSAGE);
+              tic4.setBackground(Color.ORANGE);
+              tic5.setBackground(Color.ORANGE);
+              tic6.setBackground(Color.ORANGE);
+              PocetO++;
+              SkoreHry();
+         }
+          
+           if(b7 == ("O") && b8 == ("X") && b9 == ("X"))
+         {
+             JOptionPane.showMessageDialog(this, "Hrac O vyhral hru", "Piskvorky", JOptionPane.INFORMATION_MESSAGE);
+              tic7.setBackground(Color.ORANGE);
+              tic8.setBackground(Color.ORANGE);
+              tic9.setBackground(Color.ORANGE);
+              PocetO++;
+              SkoreHry();
+         }
+           if(b1 == ("O") && b4 == ("O") && b7 == ("O"))
+         {
+             JOptionPane.showMessageDialog(this, "Hrac O vyhral hru", "Piskvorky", JOptionPane.INFORMATION_MESSAGE);
+              tic1.setBackground(Color.ORANGE);
+              tic4.setBackground(Color.ORANGE);
+              tic7.setBackground(Color.ORANGE);
+              PocetO++;
+              SkoreHry();
+         }
+          if(b2 == ("O") && b5 == ("O") && b8 == ("O"))
+         {
+             JOptionPane.showMessageDialog(this, "Hrac O vyhral hru", "Piskvorky", JOptionPane.INFORMATION_MESSAGE);
+              tic2.setBackground(Color.ORANGE);
+              tic5.setBackground(Color.ORANGE);
+              tic8.setBackground(Color.ORANGE);
+              PocetO++;
+              SkoreHry();
+         }
+          
+           if(b3 == ("O") && b6 == ("O") && b9 == ("O"))
+         {
+             JOptionPane.showMessageDialog(this, "Hrac O vyhral hru", "Piskvorky", JOptionPane.INFORMATION_MESSAGE);
+              tic3.setBackground(Color.ORANGE);
+              tic6.setBackground(Color.ORANGE);
+              tic9.setBackground(Color.ORANGE);
+              PocetO++;
+              SkoreHry();
+         }
+            if(b1 == ("O") && b5 == ("O") && b9 == ("O"))
+         {
+             JOptionPane.showMessageDialog(this, "Hrac O vyhral hru", "Piskvorky", JOptionPane.INFORMATION_MESSAGE);
+              tic1.setBackground(Color.ORANGE);
+              tic5.setBackground(Color.ORANGE);
+              tic9.setBackground(Color.ORANGE);
+              PocetO++;
+              SkoreHry();
+         }
+          
+           if(b3 == ("O") && b5 == ("O") && b7 == ("O"))
+         {
+             JOptionPane.showMessageDialog(this, "Hrac O vyhral hru", "Piskvorky", JOptionPane.INFORMATION_MESSAGE);
+              tic3.setBackground(Color.ORANGE);
+              tic5.setBackground(Color.ORANGE);
+              tic7.setBackground(Color.ORANGE);
+              PocetO++;
+              SkoreHry();
+         }
+          
+     }
 
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
@@ -109,16 +276,46 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         tic4.setFont(new java.awt.Font("Tahoma", 1, 96)); // NOI18N
+        tic4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tic4ActionPerformed(evt);
+            }
+        });
 
         tic5.setFont(new java.awt.Font("Tahoma", 0, 96)); // NOI18N
+        tic5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tic5ActionPerformed(evt);
+            }
+        });
 
         tic6.setFont(new java.awt.Font("Tahoma", 1, 96)); // NOI18N
+        tic6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tic6ActionPerformed(evt);
+            }
+        });
 
         tic7.setFont(new java.awt.Font("Tahoma", 1, 96)); // NOI18N
+        tic7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tic7ActionPerformed(evt);
+            }
+        });
 
         tic8.setFont(new java.awt.Font("Tahoma", 1, 96)); // NOI18N
+        tic8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tic8ActionPerformed(evt);
+            }
+        });
 
         tic9.setFont(new java.awt.Font("Tahoma", 1, 96)); // NOI18N
+        tic9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tic9ActionPerformed(evt);
+            }
+        });
 
         tic2.setFont(new java.awt.Font("Tahoma", 1, 96)); // NOI18N
         tic2.addActionListener(new java.awt.event.ActionListener() {
@@ -138,15 +335,15 @@ public class NewJFrame extends javax.swing.JFrame {
                     .addComponent(tic4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(tic1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                    .addComponent(tic8, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 190, Short.MAX_VALUE)
-                    .addComponent(tic5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(tic2, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(tic5, javax.swing.GroupLayout.DEFAULT_SIZE, 202, Short.MAX_VALUE)
+                    .addComponent(tic8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(tic2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(tic9, javax.swing.GroupLayout.DEFAULT_SIZE, 203, Short.MAX_VALUE)
-                    .addComponent(tic6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(tic3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(tic9, javax.swing.GroupLayout.DEFAULT_SIZE, 197, Short.MAX_VALUE)
+                    .addComponent(tic3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(tic6, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
         jPanel1Layout.setVerticalGroup(
@@ -158,7 +355,7 @@ public class NewJFrame extends javax.swing.JFrame {
                     .addComponent(tic2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(tic1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(tic4, javax.swing.GroupLayout.DEFAULT_SIZE, 170, Short.MAX_VALUE)
                     .addComponent(tic5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(tic6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -167,7 +364,7 @@ public class NewJFrame extends javax.swing.JFrame {
                     .addComponent(tic8, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 182, Short.MAX_VALUE)
                     .addComponent(tic9, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(tic7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap())
         );
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 143, 626, -1));
@@ -247,11 +444,35 @@ public class NewJFrame extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 private JFrame frame;
     private void tic2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tic2ActionPerformed
-      
+       tic2.setText(startHry);
+        
+        if(startHry.equalsIgnoreCase("X"))
+        {
+            kontroler = false;
+        }
+        else
+             {
+            kontroler = true;
+        }
+        
+        VyberSiHraca();
+        VyhranaHra();      
     }//GEN-LAST:event_tic2ActionPerformed
 
     private void tic3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tic3ActionPerformed
-       
+       tic3.setText(startHry);
+        
+        if(startHry.equalsIgnoreCase("X"))
+        {
+            kontroler = false;
+        }
+        else
+             {
+            kontroler = true;
+        }
+        
+        VyberSiHraca();
+        VyhranaHra();       
     }//GEN-LAST:event_tic3ActionPerformed
 
     private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
@@ -292,7 +513,7 @@ private JFrame frame;
 
     private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
      frame = new JFrame("Exit");
-     if(JOptionPane.showConfirmDialog(frame, "Potvrd ak chces ukoncit hru", "Piskvorky",
+     if(JOptionPane.showConfirmDialog(frame, "Naozaj chces ukoncit hru ?", "Piskvorky",
              
              JOptionPane.YES_NO_OPTION)== JOptionPane.YES_NO_OPTION)
              {
@@ -338,8 +559,117 @@ private JFrame frame;
     }//GEN-LAST:event_jButton12ActionPerformed
 
     private void tic1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tic1ActionPerformed
+        tic1.setText(startHry);
+        
+        if(startHry.equalsIgnoreCase("X"))
+        {
+            kontroler = false;
+        }
+        else
+             {
+            kontroler = true;
+        }
+        
+        VyberSiHraca();
+        VyhranaHra();
         
     }//GEN-LAST:event_tic1ActionPerformed
+
+    private void tic4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tic4ActionPerformed
+        tic4.setText(startHry);
+        
+        if(startHry.equalsIgnoreCase("X"))
+        {
+            kontroler = false;
+        }
+        else
+             {
+            kontroler = true;
+        }
+        
+        VyberSiHraca();
+        VyhranaHra();
+    }//GEN-LAST:event_tic4ActionPerformed
+
+    private void tic5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tic5ActionPerformed
+tic5.setText(startHry);
+        
+        if(startHry.equalsIgnoreCase("X"))
+        {
+            kontroler = false;
+        }
+        else
+             {
+            kontroler = true;
+        }
+        
+        VyberSiHraca();
+        VyhranaHra();        // TODO add your handling code here:
+    }//GEN-LAST:event_tic5ActionPerformed
+
+    private void tic6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tic6ActionPerformed
+tic6.setText(startHry);
+        
+        if(startHry.equalsIgnoreCase("X"))
+        {
+            kontroler = false;
+        }
+        else
+             {
+            kontroler = true;
+        }
+        
+        VyberSiHraca();
+        VyhranaHra();        // TODO add your handling code here:
+    }//GEN-LAST:event_tic6ActionPerformed
+
+    private void tic7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tic7ActionPerformed
+tic7.setText(startHry);
+        
+        if(startHry.equalsIgnoreCase("X"))
+        {
+            kontroler = false;
+        }
+        else
+             {
+            kontroler = true;
+        }
+        
+        VyberSiHraca();
+        VyhranaHra();        // TODO add your handling code here:
+    }//GEN-LAST:event_tic7ActionPerformed
+
+    private void tic8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tic8ActionPerformed
+tic8.setText(startHry);
+        
+        if(startHry.equalsIgnoreCase("X"))
+        {
+            kontroler = false;
+        }
+        else
+             {
+            kontroler = true;
+        }
+        
+        VyberSiHraca();
+        VyhranaHra();        // TODO add your handling code here:
+    }//GEN-LAST:event_tic8ActionPerformed
+
+    private void tic9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tic9ActionPerformed
+        tic9.setText(startHry);
+        
+        if(startHry.equalsIgnoreCase("X"))
+        {
+            kontroler = false;
+        }
+        else
+             {
+            kontroler = true;
+        }
+        
+        VyberSiHraca();
+        VyhranaHra();        // TODO add your handling code here:
+    }//GEN-LAST:event_tic9ActionPerformed
 
     public static void main(String args[]) {
       

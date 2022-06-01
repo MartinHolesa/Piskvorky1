@@ -1,5 +1,12 @@
+package com.mycompany.piskvorky1;
+
 
 import java.awt.Color;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
@@ -197,8 +204,16 @@ public class NewJFrame extends javax.swing.JFrame {
               PocetO++;
               SkoreHry();
          }
-          
+       Map<String, Object> vysledok = new HashMap<>();
+       String vysledoktxt = PocetX + " : " +PocetO;
+       vysledok.put("skore", vysledoktxt);
+        try {
+            Databaza.instance().collection("Hry").document(GameManager.instance().idHry).update(vysledok);
+        } catch (IOException ex) {
+            Logger.getLogger(NewJFrame.class.getName()).log(Level.SEVERE, null, ex);
+        }
      }
+     
 
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
@@ -489,6 +504,7 @@ private JFrame frame;
         jlblPlayerX.setText("0");
         jlblPlayerO.setText("0");
         
+        
         tic1.setText("");
         tic2.setText("");
         tic3.setText("");
@@ -508,6 +524,9 @@ private JFrame frame;
         tic7.setBackground(Color.WHITE);
         tic8.setBackground(Color.WHITE);
         tic9.setBackground(Color.WHITE);
+        
+        PopUp popup = new PopUp();
+        popup.setVisible(true);
         
     }//GEN-LAST:event_jButton11ActionPerformed
 
